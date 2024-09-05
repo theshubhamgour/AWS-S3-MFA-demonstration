@@ -12,3 +12,4 @@ aws s3api put-bucket-versioning --bucket <bucket-name> --versioning-configuratio
 ```
 aws s3api put-bucket-versioning --bucket <bucket-name> --versioning-configuration Status=Enabled,MFADelete=Disabled --mfa "arn-of-mfa-device mfa-code" --profile root-mfa-delete-demo
 ```
+
